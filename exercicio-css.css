@@ -1,0 +1,52 @@
+.logo
+{
+    padding-top: 0.2%;
+    padding-left: 45%;
+    position:absolute;
+}
+h1{
+    font-family: 'Italianno', cursive;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    display: inline;
+}
+p{
+text-align: center;
+}
+.imagem1
+{
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 5px;
+    border-color: white;
+    position:absolute;
+    left: 35%;
+}
+.imagem2
+{
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 5px;
+    border-color:white;
+    position:absolute;
+    right: 35%;
+}
+.imagem3
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#background-superior
+{
+    background-image: url("https://www.pizzaprime.com.br/wp-content/uploads/2019/06/pizza-prime-slideshow-1-background.jpg");
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+}
+body
+{
+    background-color: #f0be19;
+}
